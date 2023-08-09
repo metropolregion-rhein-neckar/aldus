@@ -97,12 +97,9 @@ Afterwards, we install Node.js from the newly registered source via APT:
 
 ### Step 4: Install Aldus
 
-Currently (as of 2023-07-06), Aldus is not yet available on the public npm registry.
+NOTE: Currently (as of 2023-07-06), Aldus is not yet available on the public npm registry.
 
-Change your working dirctory to your software project's npm package folder and run 
-
-`npm install aldus`
-
+In order to use Aldus, you need to clone its GitHub repository and include the Aldus source files into your projects manually.
 
 
 ### Step 5: First Run
