@@ -1,0 +1,45 @@
+{
+  "author": "Sebastian Bechtold",
+  "description": "",
+  "files": [
+    "/dist"
+  ],
+  "main": "index.js",
+  "name": "aldus",
+  "version": "0.0.1",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build-watch": "tsc -w",
+    "start-watch": "nodemon .",
+    "test": "mocha -r ts-node/register tests/**/*.test.ts"    
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/ejs": "^3.1.2",
+    "@types/node-sass": "^4.11.3",
+    "@types/uuid": "^9.0.2",
+    "axios": "^1.4.0",
+    "chai": "^4.3.7",
+    "ejs": "^3.1.9",
+    "mocha": "^10.2.0",
+    "node-latex": "^3.1.0",
+    "node-sass": "^9.0.0",
+    "stream": "^0.0.2",
+    "ts-node": "^10.9.1",
+    "uuid": "^9.0.0",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/basic-auth": "^1.1.3",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.4.9",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6"
+  },
+  "nodemonConfig": {
+    "ext": "ts,js,ejs,css,scss",
+    "ignore": []
+  }
+}
