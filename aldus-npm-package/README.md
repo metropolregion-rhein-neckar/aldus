@@ -1,9 +1,18 @@
-# Aldus
+# Aldus Usage Manual
 
 ## What is this?
 
 Aldus is a JavaScript library for automatic generation of data-driven, "report"-like PDF documents. Aldus is written in TypeScript,
 runs on Node.js and builds upon LaTeX, EJS, SVG, and other technologies.
+
+## AN IMPORTANT NOTE AT THE BEGINNING
+
+Please note that Aldus is currently (as of 2023-08-10) still in a **very early stage of development**. While it is a complete "vertical prototype" and
+generally usable as such, many features are still incomplete or missing. Also, Aldus is currently **not available on the npm registry yet**.
+
+## Where does the name "Aldus" come from?
+
+The name "Aldus" refers to the Venetian Renaissance printer and publisher *Aldus Pius Manutius*. The name was suggested by ChatGPT as a reference to an important historical person related to printing and publishing (and somebody other than Gutenberg, who already has a software library named after him ;)).
 
 ## What do I need to know to use Aldus?
 
